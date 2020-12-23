@@ -21,7 +21,8 @@ body {
                 float: right;
             }
                 a {
-                    display: inline-block;   
+                    display: inline-block;
+                    text-decoration: none;   
                 }
         section {
             display: inline-block;
