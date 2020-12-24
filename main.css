@@ -1,7 +1,6 @@
 body {
     background-color: #F8F8F8;
     font-family: 'Poppins', sans-serif;
-    text-decoration: none;
 }
     main {
         display: inline-block;
@@ -15,14 +14,37 @@ body {
             header > img {
                 display: inline-block;
                 float: left;
+                height: 50px;
             }
             nav {
                 display: inline-block;
                 float: right;
+                margin-top: 10px;
             }
                 a {
                     display: inline-block;
-                    text-decoration: none;   
+                    float: left;
+                    text-decoration: none;
+                    padding: 5px; 
+                    color: #999;
+                    font-size: 16px;
+                    line-height: 20px;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                nav > a:last-of-type {
+                    border: 5px solid #999;
+                    border-radius: 20px;
+                    text-transform: uppercase;
+                    margin-top: -5px;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+                nav > a:last-of-type:hover {
+                    background-color: #999;
+                    color: #fff;
+                    text-decoration: none;
                 }
         section {
             display: inline-block;
@@ -31,14 +53,22 @@ body {
         }
             div {
                 display: inline-block;
+                float: left;
                 width: 40%;
                 margin-left: 5%;
             }
                 h1 {
                     display: inline-block;
+                    width: 100%;
+                    margin: 0px;
+                    font-size: 80px;
                 }
                 p {
                     margin: 0px;
+                    display: inline-block;
+                    font-size: 27px;
+                    line-height: 35px;
+                    width: 100%;
                 }
             section > img {
                 display: inline-block;
